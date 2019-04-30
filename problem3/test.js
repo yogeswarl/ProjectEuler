@@ -1,6 +1,6 @@
-const largestPrimeFactor= require('./index');
+const largestPrimeFactor = require('./index');
 
-test('fiboEvenSum function exists', () => {
+test('largestPrimeFactor function exists', () => {
     expect(largestPrimeFactor).toBeDefined();
   });
   test('fibonacci sum of even value test', () => {

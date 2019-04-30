@@ -17,7 +17,4 @@ function largestPrimeFactor(number) {
   return maxValue;
 }
 
-console.log(largestPrimeFactor(13195)); //should return 29.
-console.log(largestPrimeFactor(600851475143)); //should return 6857.
-
 module.exports = largestPrimeFactor;
