@@ -1,4 +1,8 @@
-function lcm(a,b){          //lcm of two numbers.
+// 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+// What is the smallest positive number that is evenly divisible by all of the numbers from 1 to n?
+//lcm of two numbers.
+function lcm(a,b){   
     return (a*b)/gcd(a, b);
 }
 //Euclidean recursive algorithm.
