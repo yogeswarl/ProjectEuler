@@ -1,0 +1,4 @@
+# Don't track these files and folders
+
+package.json
+.DS_Store
